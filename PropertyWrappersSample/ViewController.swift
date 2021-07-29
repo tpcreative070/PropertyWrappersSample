@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         print(UserDefaults.yourAge)
         UserDefaults.yourAge = nil
         print(UserDefaults.yourAge)
+        
+        //Observer data
+        let subscription = UserDefaults.$userName.sink { value in
+            print(value)
+        }
+        UserDefaults.userName = "IOS"
     }
 }
 
