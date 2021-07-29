@@ -8,12 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        UserDefaults.hasIntializedValue = false
+        print(UserDefaults.hasIntializedValue) // Prints: false
+        UserDefaults.hasIntializedValue = true
+        print(UserDefaults.hasIntializedValue) // Prints: true
     }
-
-
 }
 

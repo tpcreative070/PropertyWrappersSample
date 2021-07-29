@@ -15,6 +15,7 @@
 		31FF7AAF26B28F9100379C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FF7AAD26B28F9100379C13 /* LaunchScreen.storyboard */; };
 		31FF7ABA26B28F9100379C13 /* PropertyWrappersSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF7AB926B28F9100379C13 /* PropertyWrappersSampleTests.swift */; };
 		31FF7AC526B28F9100379C13 /* PropertyWrappersSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF7AC426B28F9100379C13 /* PropertyWrappersSampleUITests.swift */; };
+		31FF7AD326B2926400379C13 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF7AD226B2926400379C13 /* UserDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		31FF7AC026B28F9100379C13 /* PropertyWrappersSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertyWrappersSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FF7AC426B28F9100379C13 /* PropertyWrappersSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersSampleUITests.swift; sourceTree = "<group>"; };
 		31FF7AC626B28F9100379C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FF7AD226B2926400379C13 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				31FF7AAB26B28F9100379C13 /* Assets.xcassets */,
 				31FF7AAD26B28F9100379C13 /* LaunchScreen.storyboard */,
 				31FF7AB026B28F9100379C13 /* Info.plist */,
+				31FF7AD226B2926400379C13 /* UserDefault.swift */,
 			);
 			path = PropertyWrappersSample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FF7AD326B2926400379C13 /* UserDefault.swift in Sources */,
 				31FF7AA726B28F9000379C13 /* ViewController.swift in Sources */,
 				31FF7AA326B28F9000379C13 /* AppDelegate.swift in Sources */,
 				31FF7AA526B28F9000379C13 /* SceneDelegate.swift in Sources */,
