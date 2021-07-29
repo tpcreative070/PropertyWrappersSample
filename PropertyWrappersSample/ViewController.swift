@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         print(UserDefaults.hasIntializedValue) // Prints: false
         UserDefaults.hasIntializedValue = true
         print(UserDefaults.hasIntializedValue) // Prints: true
+        
+        //Using optional
+        UserDefaults.yourAge = 20
+        print(UserDefaults.yourAge)
+        UserDefaults.yourAge = nil
+        print(UserDefaults.yourAge)
     }
 }
 
